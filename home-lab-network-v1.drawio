@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T04:05:50.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lZL5MUHqTr_pmQqA1uJj" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T04:07:56.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Tbte-Xe3H9U6kIzUw64G" version="21.6.2" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="1088" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -77,6 +77,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="720" y="280" as="sourcePoint" />
             <mxPoint x="620" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUjCIS87A6rbTVQXAkJ8-12" value="MGMT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="x9bdqeFJQxe7NECGImG6-15">
+          <mxGeometry x="-0.0991" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="x9bdqeFJQxe7NECGImG6-16" value="Unifi 8 Port PoE" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;fontStyle=1;fontSize=14;" parent="1" vertex="1">
@@ -211,6 +216,11 @@
             <mxPoint x="1230" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="qUjCIS87A6rbTVQXAkJ8-11" value="MGMT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="x9bdqeFJQxe7NECGImG6-63">
+          <mxGeometry x="-0.2106" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="x9bdqeFJQxe7NECGImG6-65" value="Laptops" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="1330" y="445" width="70" height="40.5" as="geometry" />
         </mxCell>
@@ -254,6 +264,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1030" y="404" as="sourcePoint" />
             <mxPoint x="1080" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUjCIS87A6rbTVQXAkJ8-13" value="Main" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="qUjCIS87A6rbTVQXAkJ8-4">
+          <mxGeometry x="0.1685" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qUjCIS87A6rbTVQXAkJ8-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/apps/samba.png" vertex="1" parent="1">
