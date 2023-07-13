@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T01:23:50.340Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WlkGLJlj_fLscctaRqkg" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T01:40:12.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ML-tpuwKYtAhuqlYn33R" version="21.6.2" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
-    <mxGraphModel dx="1829" dy="1234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="853" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="x9bdqeFJQxe7NECGImG6-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="310" y="51" width="260" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="6a7d8f32e03d9370-60" value="Prod-Digital Ocean Droplet" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="6a7d8f32e03d9370-60" value="Prod-Digital Ocean Droplets" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1380" y="20" width="330" height="220" as="geometry" />
         </mxCell>
         <mxCell id="x9bdqeFJQxe7NECGImG6-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -183,13 +183,55 @@
           <mxGeometry x="620" y="310" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="x9bdqeFJQxe7NECGImG6-60" value="PI-hole&amp;nbsp;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="865.2" y="730" width="75" height="75" as="geometry" />
+          <mxGeometry x="690" y="730" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="x9bdqeFJQxe7NECGImG6-61" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="x9bdqeFJQxe7NECGImG6-60" target="x9bdqeFJQxe7NECGImG6-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="930" y="580" as="sourcePoint" />
             <mxPoint x="980" y="530" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-64" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="422.5" width="390" height="287.5" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-62" value="Unifi AP Pro&lt;br style=&quot;font-size: 14px;&quot;&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/wireless/Access_Point_Indoor.svg;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="462.7" width="36.6" height="54.6" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-63" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="x9bdqeFJQxe7NECGImG6-16" target="x9bdqeFJQxe7NECGImG6-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="550" as="sourcePoint" />
+            <mxPoint x="1230" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-65" value="Laptops" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="473" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-66" value="Smart outlets" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sensor;fillColor=#5294CF;gradientColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1569.75" y="462.7" width="60.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-67" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="580" width="29.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-68" value="Smart bulbs" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/success-filloutline/64/idea-read-knowledge-light_bulb-thinking-128.png;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1568" y="580" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-69" value="Wi-fi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1498" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-70" value="Pi-cluster01" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="970" y="660" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-71" value="Pi-cluster02" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="970" y="760" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-72" value="Pi-cluster03" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="970" y="870" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-73" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950.41" y="650" width="269.59" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="x9bdqeFJQxe7NECGImG6-74" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="582" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
