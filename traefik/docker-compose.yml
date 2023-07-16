@@ -1,47 +1,26 @@
 version: "3.3"
 
 services:
-
   traefik:
-    env_file: ./.env
-    image: "traefik:v2.10"
-    container_name: "traefik"
+    env_file:
+      - ./.env
+    image: "traefik:v2.6"
     command:
       #- "--log.level=DEBUG"
       - "--api.insecure=true"
-      - "--api.dashboard=true"
-      - "--entrypoints.https.http.tls.certresolver=dns-cloudflare"
-      - "--certificatesresolvers.letsencrypt.acme.tlschallenge=true"
-      - "--certificatesresolvers.letsencryptresolver.acme.httpchallenge=true"
-      - "--certificatesresolvers.letsencryptresolver.acme.httpchallenge.entrypoint=web"
-      - "--certificatesResolvers.dns-cloudflare.acme.email=${CLOUDFLARE_EMAIL}"
-      - "--certificatesResolvers.dns-cloudflare.acme.storage=./acme.json"
-      - "--entryPoints.web.http.redirections.entryPoint.to=websecure"
-      - "--entryPoints.web.http.redirections.entryPoint.scheme=https"
-      - "--entryPoints.web.http.redirections.entrypoint.permanent=true"
-      - "--providers.docker.network=dev-web"
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
       - "--entrypoints.web.address=:80"
-      - "--entrypoints.websecure.address=:443"
-      - "--certificatesresolvers.letsencrypt.acme.dnschallenge.resolvers=1.1.1.1:53,8.8.8.8:53"
+      - "--entrypoints.websecure.address=:443" 
+      - "--certificatesresolvers.myresolver.acme.tlschallenge=true" 
+      - "--certificatesresolvers.myresolver.acme.email=${CLOUDFLARE_EMAIL}"
+      - "--certificatesresolvers.myresolver.acme.storage=./acme.json" 
+    ports:
+      - "80:80"
+      - "443:443" 
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
-      - ./acme.json:/acme
-    ports:
-      - 80:80
-      - 443:443
-    labels:
-      - traefik.http.routers.to-https.entrypoints=http
-      - traefik.http.routers.to-https.middlewares=to-https
-      - traefik.http.routers.traefik.rule=Host(`${TRAEFIK_HOST}`)
-      - traefik.http.routers.traefik.entrypoints=https
-      - traefik.http.routers.traefik.middlewares=auth
-      - traefik.http.routers.traefik.service=api@internal
-      - traefik.http.routers.traefik.tls=true
-      - traefik.http.routers.traefik.tls.certresolver=letsencrypt
-      - traefik.http.middlewares.to-https.redirectscheme.scheme=https
-      - traefik.http.middlewares.auth.basicauth.users=${TRAEFIK_PASS}
+      - "./acme.json:/acme.json" 
 
 networks:
   dev-web:
