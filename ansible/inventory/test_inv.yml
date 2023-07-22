@@ -1,0 +1,10 @@
+cluster_name:
+  hosts:
+    host1:
+      ansible_ssh_host: 0.0.0.0
+    host2:
+      ansible_ssh_host: 0.0.0.0
+    host3:
+      ansible_ssh_host: 0.0.0.0
+  vars:
+    ansible_user: user
