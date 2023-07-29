@@ -4,3 +4,5 @@ traefik/acme.json
 traefik/traefik_dynamic.toml
 portainer/.env
 ansible/inventory/inventory.yml
+manifests/cert-manager/certifcates/*
+manifests/cert-manager/issuers/*
