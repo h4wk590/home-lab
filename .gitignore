@@ -6,3 +6,4 @@ portainer/.env
 ansible/inventory/inventory.yml
 manifests/cert-manager/certifcates/*
 manifests/cert-manager/issuers/*
+manifests/traefik/dashboard/secret-dashboard.yml
