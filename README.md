@@ -8,9 +8,9 @@ Includes some boiler platers and live configs.
 
 ## Currently Working On...
 
-- 3 Node K3s cluster [x]
-- Longhorn persistent storage [x]
-- Letsencrypt HTTPS certificates on services [x]
-- Uptime Kuma monitoring []
-- Nextcloud instance []
+- [x] 3 Node K3s cluster 
+- [x] Longhorn persistent storage 
+- [x] Letsencrypt HTTPS certificates on services 
+- [] Uptime Kuma monitoring 
+- [] Nextcloud instance 
 
