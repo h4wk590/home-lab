@@ -8,3 +8,9 @@ manifests/cert-manager/certifcates/*
 manifests/cert-manager/issuers/*
 manifests/traefik/dashboard/secret-dashboard.yml
 uptime-kuma/data/*
+nextcloud/.env
+nextcloud/data
+nginx-proxy/data/*
+nginx-proxy/letsencrypt
+cloudflared/.env
+nextcloud/.env
