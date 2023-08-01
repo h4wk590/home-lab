@@ -11,7 +11,7 @@ Includes some boiler platers and live configs.
 - [x] 3 Node K3s cluster 
 - [x] Longhorn persistent storage 
 - [x] Letsencrypt HTTPS certificates on services 
-- [x]Uptime Kuma monitoring 
+- [x] Uptime Kuma monitoring 
 - Nextcloud instance 
 - Finally putting Unifi controller into a container where it belongs
 
