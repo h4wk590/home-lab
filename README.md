@@ -14,7 +14,6 @@ Includes some boiler platers and live configs.
 - [x] Letsencrypt HTTPS certificates on services 
 - [x] Uptime Kuma monitoring  
 - [x] Finally putting Unifi controller into a container where it belongs
-- Nextcloud instance
+- [x] Nextcloud instance
+- [x] Cloudflare HTTPS tunnel
 - Homer Dashboard
-- Cloudflare HTTPS tunnel
-
