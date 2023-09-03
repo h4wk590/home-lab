@@ -11,6 +11,10 @@ Includes some boiler platers and live configs.
 - SSH keypairs, env files, and the like
 - View `img` directory to see some of the deployed service images
 
+I choose to keep all my home services within my local network besides Nextcloud (which I use Cloudflare's HTTPS Tunnel). I use [PIPVN](https://www.pivpn.io/) to access my home lab remotely. 
+
+Any service that I do want to have external access is hosted from my VPS Instance in DigitalOcean.
+
 ## Currently Working On...
 
 - [x] 3 Node K3s cluster 
