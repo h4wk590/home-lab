@@ -1,5 +1,9 @@
 # Home Lab
 
+Current-ish state of the lab:
+
+![](/img/home-lab-network-v1.jpg)
+
 A space to create, learn, and share
 Includes some boiler platers and live configs.
 
